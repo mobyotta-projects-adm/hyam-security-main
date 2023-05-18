@@ -1,0 +1,40 @@
+Boilerplate means:
+boilerplate means a piece of code that can be used over and over again in a specifc part of an app, or to do the same operation, maybe with slight modifications.
+In short word - you can understand boilerplate by reusable code that is used many places in to project.
+
+Purpose of using Boilerplate in flutter :
+
+1. Using global and centrelize code base
+2. Avoiding unnecessary code from project
+3. Centralized place to manage your application’s colors/branding
+4. Centralized place to manage your application’s constants/url/keys
+5. Logically & Naturally organized files & folders:
+
+* api – hold all your common api concerns (ApiBaseHelper, ApiResponse, AppException)
+* blocs – hold all your blocs (Streams – provide data to the views. relate to controllers)
+* models – hold all your models (relate to models )
+* repositories – hold all your repositories (CRUD operations)
+* responses – hold all your responses
+* utils – hold all your utility files
+* views – hold all your views/ui (relate to views )
+    * partials – hold all your commonly used widgets (ApiError, Loading)
+
+
+Features of this Boilerplate Repository:
+
+1. Form validation
+2. Multiple language support localisation
+3. Global theme with persistence in storage
+4. Exported modules
+5. Bottom navigation with  persistence in storage
+6. Service classes (Connectivity Service , Storage Service and http service)
+7. Logger Utility
+8. Dependency Injector
+9. Modal sheet
+10. App Data Source
+11. App data repository
+12. Response handling
+13. Navigation handling with auto route
+14. Form validation
+15. Dynamic theming
+
